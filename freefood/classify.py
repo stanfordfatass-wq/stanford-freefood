@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import datetime as dt
 import logging
+import os
 
 import anthropic
 from pydantic import BaseModel, Field
@@ -66,6 +67,28 @@ def _build_prompt(ev: RawEvent, today: dt.date) -> str:
     )
 
 
+class ClassifierUnavailable(RuntimeError):
+    """Raised when enough calls fail that the result can't be trusted.
+
+    This matters more than it looks. The feed is rebuilt from scratch every
+    run, so silently treating a dead classifier as "found nothing" would
+    publish an empty calendar and wipe every real event off the subscriber's
+    phone. Better to fail the run and leave the last good feed in place.
+    """
+
+
+def _make_client() -> anthropic.Anthropic:
+    # Identity-linked API keys reject every request unless they carry the id of
+    # the workspace to act in. Workspace-scoped keys don't need the header, so
+    # send it only when configured.
+    workspace = os.getenv("ANTHROPIC_WORKSPACE_ID")
+    if workspace:
+        return anthropic.Anthropic(
+            default_headers={"anthropic-workspace-id": workspace}
+        )
+    return anthropic.Anthropic()
+
+
 def classify(events: list[RawEvent], store: Store, dry_run: bool = False) -> list[FoodEvent]:
     candidates = [e for e in events if config.PREFILTER.search(e.haystack)]
     log.info("prefilter: %d/%d events survive", len(candidates), len(events))
@@ -73,7 +96,7 @@ def classify(events: list[RawEvent], store: Store, dry_run: bool = False) -> lis
     client = None
     today = dt.date.today()
     kept: list[FoodEvent] = []
-    hits = misses = 0
+    hits = misses = failures = 0
 
     for ev in candidates:
         cached = store.get_verdict(ev.content_hash)
@@ -87,7 +110,7 @@ def classify(events: list[RawEvent], store: Store, dry_run: bool = False) -> lis
                 log.info("[dry-run] would classify: %s", ev.title[:70])
                 continue
             if client is None:
-                client = anthropic.Anthropic()
+                client = _make_client()
             try:
                 resp = client.messages.parse(
                     model=config.MODEL,
@@ -98,7 +121,12 @@ def classify(events: list[RawEvent], store: Store, dry_run: bool = False) -> lis
                 )
                 verdict = resp.parsed_output
             except Exception as exc:
-                log.warning("classify failed for %r: %s", ev.title[:50], exc)
+                failures += 1
+                # Log the first failure at ERROR so the real cause is visible
+                # in CI without trawling the whole log.
+                (log.error if failures == 1 else log.warning)(
+                    "classify failed for %r: %s", ev.title[:50], exc
+                )
                 continue
             misses += 1
             store.put_verdict(ev.content_hash, verdict.model_dump())
@@ -115,5 +143,19 @@ def classify(events: list[RawEvent], store: Store, dry_run: bool = False) -> lis
                 )
             )
 
-    log.info("classifier: %d kept (%d cached, %d new calls)", len(kept), hits, misses)
+    log.info(
+        "classifier: %d kept (%d cached, %d new calls, %d failed)",
+        len(kept), hits, misses, failures,
+    )
+
+    # A dead classifier looks exactly like "no free food anywhere" from the
+    # feed's point of view, so refuse to publish rather than silently emptying
+    # the calendar. Half is the threshold: transient 429s and the odd malformed
+    # event are survivable, a broken key or bad model id is not.
+    if failures and failures >= max(1, len(candidates) // 2):
+        raise ClassifierUnavailable(
+            f"{failures} of {len(candidates)} classification calls failed; "
+            "refusing to publish a feed built from a broken classifier"
+        )
+
     return kept

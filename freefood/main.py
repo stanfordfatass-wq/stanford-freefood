@@ -6,7 +6,7 @@ import os
 import sys
 
 from . import config, icsfeed
-from .classify import classify
+from .classify import ClassifierUnavailable, classify
 from .models import RawEvent
 from .sources import cardinalengage, localist
 from .store import Store
@@ -85,7 +85,12 @@ def main(argv=None) -> int:
         return 1
 
     raw = dedupe(raw)
-    found = classify(raw, store, dry_run=args.dry_run)
+    try:
+        found = classify(raw, store, dry_run=args.dry_run)
+    except ClassifierUnavailable as exc:
+        log.error("%s", exc)
+        log.error("leaving the existing feed untouched")
+        return 3
 
     print(f"\n{'=' * 72}")
     print(f"scraped {len(raw)} events -> {len(found)} with free food")

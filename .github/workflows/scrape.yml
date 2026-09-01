@@ -32,6 +32,9 @@ jobs:
       - name: Scrape and build feed
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Only needed for identity-linked API keys, which reject every
+          # request without it. Harmless when unset.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
         run: python -m freefood.main
 
       # Committing state/ does double duty: it persists the classifier cache
