@@ -48,40 +48,86 @@ jobs:
       # the commit itself counts as repo activity -- which stops GitHub from
       # auto-disabling this scheduled workflow after 60 days of inactivity.
       - name: Persist cache and feed
+        id: persist
         run: |
           git config user.name  "freefood-bot"
           git config user.email "freefood-bot@users.noreply.github.com"
           git add state/ docs/feed.ics
-          git diff --staged --quiet || git commit -m "feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+          if git diff --staged --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          fi
           git push
+          echo "sha=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
 
-      # Phone push, but only when the feed actually gained an event -- which
-      # is roughly never out of term and a few times a week in quarter. A
-      # notification on every run would be eight a day, all of them noise.
+      # Phone push on every run, including the quiet ones -- eight a day, of
+      # which roughly none carry a new event out of term. That is deliberate:
+      # a heartbeat you can see is worth more than an inbox you can ignore.
+      #
+      # The two cases carry different ntfy priorities. Real events go out at
+      # default priority so the phone actually buzzes; the "nothing new"
+      # heartbeat goes at low, which lands silently in the tray and won't
+      # wake you for the 03:00 and 06:00 runs. Bump `prio` to default below
+      # if you want every run to buzz.
       #
       # NTFY_TOPIC is a secret, not a var: ntfy has no accounts, so the topic
       # name IS the credential. Anyone who learns it can read your feed
       # notifications and publish to them.
-      - name: Notify new events
+      - name: Notify
         if: success()
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          COMMITTED: ${{ steps.persist.outputs.committed }}
+          SHA: ${{ steps.persist.outputs.sha }}
         run: |
           if [ -z "$NTFY_TOPIC" ]; then
             echo "NTFY_TOPIC not set -- skipping notification"
             exit 0
           fi
           body=$(python -m freefood.notify "$RUNNER_TEMP/feed.before.ics" docs/feed.ics)
-          if [ -z "$body" ]; then
-            echo "no new events -- nothing to notify"
-            exit 0
+          total=$(grep -c '^BEGIN:VEVENT' docs/feed.ics || true)
+          if [ -n "$body" ]; then
+            title="New free food on campus"
+            tags="hamburger"
+            prio="default"
+            msg="$body"
+          elif [ "$COMMITTED" = "true" ]; then
+            title="Ran OK - no new events"
+            tags="white_check_mark"
+            prio="low"
+            msg="Committed $SHA successfully, but no new events. $total in the feed."
+          else
+            title="Ran OK - nothing to commit"
+            tags="white_check_mark"
+            prio="low"
+            msg="Scrape succeeded, feed unchanged. $total events in the feed."
           fi
-          echo "notifying:"; echo "$body"
+          echo "notifying: $title / $msg"
           curl -sS --fail-with-body \
-            -H "Title: New free food on campus" \
-            -H "Tags: hamburger" \
+            -H "Title: $title" \
+            -H "Tags: $tags" \
+            -H "Priority: $prio" \
             -H "Click: https://stanfordfatass-wq.github.io/stanford-freefood/" \
-            -d "$body" \
+            -d "$msg" \
+            "https://ntfy.sh/$NTFY_TOPIC"
+
+      # A heartbeat that only fires on success is a trap: a broken scraper
+      # would just go quiet, and silence is exactly what a healthy out-of-term
+      # run looks like. So failures get their own push, at high priority.
+      - name: Notify on failure
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          [ -n "$NTFY_TOPIC" ] || exit 0
+          curl -sS --fail-with-body \
+            -H "Title: Free food scraper FAILED" \
+            -H "Tags: rotating_light" \
+            -H "Priority: high" \
+            -H "Click: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            -d "Run $GITHUB_RUN_ID failed. The feed is stale until this is fixed." \
             "https://ntfy.sh/$NTFY_TOPIC"
 
       # --- Deploy ------------------------------------------------------
