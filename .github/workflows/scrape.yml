@@ -29,6 +29,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Snapshot the feed before it gets overwritten. Every run rewrites
+      # DTSTAMP on every event, so the file always differs -- only a UID-set
+      # diff can tell "two new events" apart from "nothing happened".
+      - name: Snapshot current feed
+        run: cp docs/feed.ics "$RUNNER_TEMP/feed.before.ics" || true
+
       - name: Scrape and build feed
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -48,6 +54,35 @@ jobs:
           git add state/ docs/feed.ics
           git diff --staged --quiet || git commit -m "feed: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+      # Phone push, but only when the feed actually gained an event -- which
+      # is roughly never out of term and a few times a week in quarter. A
+      # notification on every run would be eight a day, all of them noise.
+      #
+      # NTFY_TOPIC is a secret, not a var: ntfy has no accounts, so the topic
+      # name IS the credential. Anyone who learns it can read your feed
+      # notifications and publish to them.
+      - name: Notify new events
+        if: success()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "NTFY_TOPIC not set -- skipping notification"
+            exit 0
+          fi
+          body=$(python -m freefood.notify "$RUNNER_TEMP/feed.before.ics" docs/feed.ics)
+          if [ -z "$body" ]; then
+            echo "no new events -- nothing to notify"
+            exit 0
+          fi
+          echo "notifying:"; echo "$body"
+          curl -sS --fail-with-body \
+            -H "Title: New free food on campus" \
+            -H "Tags: hamburger" \
+            -H "Click: https://stanfordfatass-wq.github.io/stanford-freefood/" \
+            -d "$body" \
+            "https://ntfy.sh/$NTFY_TOPIC"
 
       # --- Deploy ------------------------------------------------------
       # Nothing to do here. docs/feed.ics is committed by the step above and
