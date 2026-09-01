@@ -70,7 +70,7 @@ Then: **Settings → Calendar → Accounts → Fetch New Data → Every 15 Minut
 pip install -r requirements.txt
 
 python -m freefood.main --dry-run --no-groups   # fast, spends no tokens
-python -m freefood.main                          # full run, writes public/feed.ics
+python -m freefood.main                          # full run, writes docs/feed.ics
 ```
 
 `--dry-run` prints the funnel (scraped → prefiltered → kept) and writes nothing,

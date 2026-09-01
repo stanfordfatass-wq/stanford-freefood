@@ -42,12 +42,12 @@ jobs:
         run: |
           git config user.name  "freefood-bot"
           git config user.email "freefood-bot@users.noreply.github.com"
-          git add state/ public/feed.ics
+          git add state/ docs/feed.ics
           git diff --staged --quiet || git commit -m "feed: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
 
       # --- Deploy ------------------------------------------------------
-      # Nothing to do here. public/feed.ics is committed by the step above and
+      # Nothing to do here. docs/feed.ics is committed by the step above and
       # GitHub Pages serves it straight from the branch: no deploy action, no
       # second account, no extra secrets.
       #
@@ -63,4 +63,4 @@ jobs:
       #     with:
       #       apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       #       accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      #       command: pages deploy public --project-name=stanford-freefood
+      #       command: pages deploy docs --project-name=stanford-freefood

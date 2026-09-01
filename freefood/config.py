@@ -49,5 +49,7 @@ FEED_TZ = "America/Los_Angeles"
 ALARM_MINUTES = int(os.getenv("FF_ALARM_MINUTES", "45"))
 REFRESH_MINUTES = int(os.getenv("FF_REFRESH_MINUTES", "15"))
 
-OUT_DIR = os.getenv("FF_OUT_DIR", "public")
+# GitHub Pages branch-deploy only serves from "/" or "/docs", never an
+# arbitrary folder -- hence docs/ rather than the more obvious public/.
+OUT_DIR = os.getenv("FF_OUT_DIR", "docs")
 DB_PATH = os.getenv("FF_DB_PATH", "state/freefood.db")

@@ -69,8 +69,8 @@ Warn "paste it at the prompt below"
 if ($LASTEXITCODE -ne 0) { throw "failed to set ANTHROPIC_API_KEY" }
 
 # --- pages ------------------------------------------------------------------
-Step "enabling GitHub Pages on main:/public"
-& $gh api -X POST "repos/{owner}/$Repo/pages" -f "source[branch]=main" -f "source[path]=/public" 2>$null | Out-Null
+Step "enabling GitHub Pages on main:/docs"
+& $gh api -X POST "repos/{owner}/$Repo/pages" -f "source[branch]=main" -f "source[path]=/docs" 2>$null | Out-Null
 if ($LASTEXITCODE -ne 0) { Warn "already enabled" }
 
 # --- first run --------------------------------------------------------------

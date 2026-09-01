@@ -42,9 +42,9 @@ echo "    Get one at https://console.anthropic.com/settings/keys"
 echo "    Paste it below (input is hidden):"
 gh secret set ANTHROPIC_API_KEY
 
-echo "==> enabling GitHub Pages on main:/public"
+echo "==> enabling GitHub Pages on main:/docs"
 gh api -X POST "repos/{owner}/$REPO/pages" \
-  -f "source[branch]=main" -f "source[path]=/public" >/dev/null 2>&1 \
+  -f "source[branch]=main" -f "source[path]=/docs" >/dev/null 2>&1 \
   || echo "    (already enabled)"
 
 echo "==> triggering the first run"
