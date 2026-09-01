@@ -1,8 +1,8 @@
 #Requires -Version 5.1
 # Every part of the setup that can be automated without a browser.
 #
-#     cd C:\Users\india\freefood
-#     .\setup.ps1
+#     cd path\to\freefood
+#     powershell -ExecutionPolicy Bypass -File .\setup.ps1
 #
 # Stops with an explanation if a prerequisite is missing. Safe to re-run.
 
