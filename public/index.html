@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stanford Free Food</title>
+<style>
+  body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:34rem;
+       margin:12vh auto;padding:0 1.2rem;color:#1a1a1a}
+  code{background:#f0f0f0;padding:.15em .4em;border-radius:4px;font-size:.85em}
+  a.btn{display:inline-block;background:#8c1515;color:#fff;text-decoration:none;
+        padding:.7em 1.3em;border-radius:8px;font-weight:600}
+  @media(prefers-color-scheme:dark){body{background:#141414;color:#eee}
+    code{background:#2a2a2a}}
+</style>
+<h1>Stanford Free Food</h1>
+<p>An auto-updating calendar of campus events that mention free food, scraped
+   from Stanford Events and CardinalEngage.</p>
+<p><a class="btn" href="feed.ics">Subscribe</a></p>
+<p>On iPhone, tap Subscribe and <strong>leave alarms enabled</strong> &mdash; each
+   event carries a 45-minute heads-up. Or paste this into your calendar app:</p>
+<p><code id="u"></code></p>
+<script>document.getElementById('u').textContent=location.href.replace(/[^/]*$/,'')+'feed.ics'</script>

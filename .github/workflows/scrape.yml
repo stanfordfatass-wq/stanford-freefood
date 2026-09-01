@@ -1,0 +1,66 @@
+name: scrape
+
+on:
+  schedule:
+    # Every 3 hours. GitHub's cron is best-effort and routinely runs 5-30
+    # minutes late; that's fine here, since the per-event alarms are what
+    # actually get you to the food, not feed freshness.
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scrape and build feed
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m freefood.main
+
+      # Committing state/ does double duty: it persists the classifier cache
+      # between runs (so unchanged events never cost a second model call), and
+      # the commit itself counts as repo activity -- which stops GitHub from
+      # auto-disabling this scheduled workflow after 60 days of inactivity.
+      - name: Persist cache and feed
+        run: |
+          git config user.name  "freefood-bot"
+          git config user.email "freefood-bot@users.noreply.github.com"
+          git add state/ public/feed.ics
+          git diff --staged --quiet || git commit -m "feed: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      # --- Deploy ------------------------------------------------------
+      # Nothing to do here. public/feed.ics is committed by the step above and
+      # GitHub Pages serves it straight from the branch: no deploy action, no
+      # second account, no extra secrets.
+      #
+      # Tradeoff: GitHub's CDN sets Cache-Control: max-age=600, so the feed can
+      # be up to 10 minutes stale. That is moot here -- the 45-minute per-event
+      # alarm is what gets you to the food, not feed freshness.
+      #
+      # Pages on a PRIVATE repo needs a paid plan. To stay private, use
+      # Cloudflare Pages instead (free, works with private repos) by restoring:
+      #
+      #   - name: Deploy to Cloudflare Pages
+      #     uses: cloudflare/wrangler-action@v3
+      #     with:
+      #       apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #       accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      #       command: pages deploy public --project-name=stanford-freefood
