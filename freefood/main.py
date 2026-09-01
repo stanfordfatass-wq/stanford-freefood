@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 
 from . import config, icsfeed
@@ -53,6 +54,16 @@ def main(argv=None) -> int:
         level=logging.DEBUG if args.verbose else logging.INFO,
         format="%(levelname)-7s %(name)s: %(message)s",
     )
+
+    # Fail fast and legibly rather than scraping for two minutes and then
+    # dying inside the classifier with an SDK traceback.
+    if not args.dry_run and not os.environ.get("ANTHROPIC_API_KEY"):
+        log.error(
+            "ANTHROPIC_API_KEY is not set. In CI: gh secret set ANTHROPIC_API_KEY. "
+            "Locally: $env:ANTHROPIC_API_KEY='sk-ant-...'. "
+            "Use --dry-run to scrape without classifying."
+        )
+        return 2
 
     store = Store(config.DB_PATH)
     store.vacuum_old()
