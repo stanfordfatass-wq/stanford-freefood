@@ -5,7 +5,7 @@ import logging
 import os
 import sys
 
-from . import config, icsfeed
+from . import config, icsfeed, webdata
 from .classify import ClassifierUnavailable, classify
 from .models import RawEvent
 from .sources import cardinalengage, localist
@@ -106,6 +106,7 @@ def main(argv=None) -> int:
         return 0
 
     icsfeed.write(found, args.out)
+    webdata.write(found, args.out)
     return 0
 
 
