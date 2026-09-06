@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-06T04:12:02+00:00",
+ "generated": "2026-09-06T06:17:53+00:00",
  "count": 33,
  "events": [
   {
@@ -37,7 +37,7 @@
   },
   {
    "uid": "85c1aef72648503943505d5871e6280cf60f0b72",
-   "title": "NGSO: Getting the Most Out of Your Advising Relationship...",
+   "title": "NGSO: Getting the Most Out of Your Advising Relationship (presented by VPGE)",
    "food": "refreshments",
    "blurb": "Workshop on building effective advising relationships for graduate students.",
    "org": "Office of the Vice Provost for Graduate Education",
@@ -97,7 +97,7 @@
   },
   {
    "uid": "0bd1ff69430317fb745f6ff60f6b4c540bee4c60",
-   "title": "In-Person Stanford First-Year PhD Information Session and...",
+   "title": "In-Person Stanford First-Year PhD Information Session and Reception",
    "food": "light refreshments",
    "blurb": "Information session and reception for prospective Knight-Hennessy Scholars applicants.",
    "org": "Knight-Hennessy Scholars",
@@ -187,7 +187,7 @@
   },
   {
    "uid": "15e093a0717c55976d03f5aeae1f061d23eb79ba",
-   "title": "Lecturers and Academic Teaching Staff: Academic Year Kick...",
+   "title": "Lecturers and Academic Teaching Staff: Academic Year Kick-off and Community Gathering",
    "food": "snacks",
    "blurb": "Academic year kick-off and community gathering for lecturers and teaching staff.",
    "org": "Center for Teaching and Learning",
@@ -217,7 +217,7 @@
   },
   {
    "uid": "9a0a1b2422be39ddfa66a69a071b39866e20294a",
-   "title": "Ask Me Anything: A Conversation with the President and Pr...",
+   "title": "Ask Me Anything: A Conversation with the President and Provost",
    "food": "light refreshments",
    "blurb": "Q&A with university president and provost about graduate education.",
    "org": "Office of the Vice Provost for Graduate Education",
@@ -247,7 +247,7 @@
   },
   {
    "uid": "b0478b214d77f6801e88a7d4216beeb49da65900",
-   "title": "Celebrating Human and Planetary Health | How is the Stanf...",
+   "title": "Celebrating Human and Planetary Health | How is the Stanford community building a healthier future for people and the planet?",
    "food": "light refreshments",
    "blurb": "Annual showcase on human and planetary health research across Stanford.",
    "org": "Center for Human and Planetary Health",
@@ -262,7 +262,7 @@
   },
   {
    "uid": "9035ced907bce9cc8dcdf48ff2c56df5673f7e03",
-   "title": "Takaki Komiyama - A cell-type-specific cortical circuit f...",
+   "title": "Takaki Komiyama - A cell-type-specific cortical circuit for maintenance of value representations",
    "food": "coffee and cookies",
    "blurb": "Neuroscience seminar on neural circuits and value-based decision-making in mice.",
    "org": "Wu Tsai Neurosciences Institute",
@@ -292,7 +292,7 @@
   },
   {
    "uid": "fdf3a9646dea2cc74fe9e927563115c6ee6ace41",
-   "title": "Art & Boba Talk with Carolyn Lazard & Jerron Herman | STA...",
+   "title": "Art & Boba Talk with Carolyn Lazard & Jerron Herman | STANFORD AFFILIATES ONLY",
    "food": "boba",
    "blurb": "Artist talk with Carolyn Lazard and Jerron Herman over boba.",
    "org": "Cantor Arts Center",
@@ -382,7 +382,7 @@
   },
   {
    "uid": "5ed8f32bae512e6df3d6f3e7e3b75963113832a1",
-   "title": "David Anderson - Neural Coding of Affective Internal Stat...",
+   "title": "David Anderson - Neural Coding of Affective Internal States Underlying Innate Behaviors",
    "food": "coffee and cookies",
    "blurb": "Neuroscience seminar on neural coding of affective states and innate behaviors.",
    "org": "Wu Tsai Neurosciences Institute",
@@ -427,7 +427,7 @@
   },
   {
    "uid": "bf4658f355b849e52dfc71e92e4b62de9742ee33",
-   "title": "Leadership Bootcamp: Communication, Negotiation and Influ...",
+   "title": "Leadership Bootcamp: Communication, Negotiation and Influence",
    "food": "dinner",
    "blurb": "Interactive workshop on leadership communication, negotiation, and influence skills.",
    "org": "Office of the Vice Provost for Graduate Education",
@@ -457,7 +457,7 @@
   },
   {
    "uid": "37c9635bc2fd8d3a3a846f0393153db763bd50b9",
-   "title": "Leadership Bootcamp: Communication, Negotiation and Influ...",
+   "title": "Leadership Bootcamp: Communication, Negotiation and Influence",
    "food": "dinner",
    "blurb": "Interactive workshop on leadership communication, negotiation, and influence skills.",
    "org": "Office of the Vice Provost for Graduate Education",
