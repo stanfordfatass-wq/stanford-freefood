@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-07T06:21:13+00:00",
- "count": 34,
+ "generated": "2026-09-07T09:17:04+00:00",
+ "count": 35,
  "events": [
   {
    "uid": "3dbcf97b0909720e40a0db6b06ecbeb29e7e9f0c",
@@ -512,6 +512,21 @@
    "day": "2026-11-04",
    "allDay": false,
    "url": "https://events.stanford.edu/event/3-minute-thesis-3mt-informational-workshop-nov-4-2026",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "0b57e030bbdb18cf9f6cac4515b3b8ed07390ddd",
+   "title": "Cristopher Niell",
+   "food": "coffee and cookies",
+   "blurb": "Neuroscience seminar with guest speaker from University of Oregon.",
+   "org": "Wu Tsai Neurosciences Institute",
+   "location": "Stanford Neurosciences Building",
+   "start": "2026-11-05T12:00:00-08:00",
+   "end": "2026-11-06T12:00:00-08:00",
+   "day": "2026-11-05",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/cristopher-niell",
    "source": "localist",
    "confidence": 0.95
   }
