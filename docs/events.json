@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-10T21:15:41+00:00",
+ "generated": "2026-09-11T00:20:35+00:00",
  "count": 37,
  "events": [
   {
@@ -534,7 +534,7 @@
    "uid": "647dff6aea2ad7c5e4d90d73bc28f61a410af03a",
    "title": "36th Annual Jonathan J. King Lecture: Dr. Bryant Lin & Dr. Shoshana Ungerleider",
    "food": "hors d'oeuvres and refreshments",
-   "blurb": "Lecture by Dr. Bryant Lin on living with terminal cancer, followed by Q&A.",
+   "blurb": "Lecture featuring Dr. Bryant Lin discussing living with terminal cancer.",
    "org": "The Laurie J. Girand Center for Biomedical Ethics",
    "location": "Cedar Room, Stanford Faculty Club Cedar Room",
    "start": "2026-11-05T17:30:00-08:00",
@@ -543,7 +543,7 @@
    "allDay": false,
    "url": "https://events.stanford.edu/event/36th-annual-jonathan-j-king-lecture",
    "source": "localist",
-   "confidence": 0.92
+   "confidence": 0.95
   },
   {
    "uid": "6e8295b0bbf59a92008d8ccbd0c84e8d5a6ab882",
