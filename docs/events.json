@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-12T00:19:58+00:00",
+ "generated": "2026-09-12T03:15:57+00:00",
  "count": 39,
  "events": [
   {
@@ -54,7 +54,7 @@
    "uid": "bf61e9f4694a38921392ee8a4ad6cbdd9ac87dee",
    "title": "Science Library Open House",
    "food": "light refreshments",
-   "blurb": "Guided tour of the Science Library with puzzles, games, and refreshments.",
+   "blurb": "Guided tour and activities at Stanford's Science Library with refreshments.",
    "org": "Stanford University Libraries",
    "location": "Sapp Center for Science Teaching and Learning Room 315",
    "start": "2026-09-16T13:00:00-07:00",
