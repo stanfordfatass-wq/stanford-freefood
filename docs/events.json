@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-14T00:21:53+00:00",
- "count": 40,
+ "generated": "2026-09-14T03:16:32+00:00",
+ "count": 41,
  "events": [
   {
    "uid": "3dbcf97b0909720e40a0db6b06ecbeb29e7e9f0c",
@@ -587,6 +587,21 @@
    "day": "2026-11-09",
    "allDay": false,
    "url": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "c73a118b235f4b6162baa46f9e4bf5afa0cf234e",
+   "title": "Lunchtime Recitals & Communi-Tea",
+   "food": "tea and cookies",
+   "blurb": "Organ recital with tea and cookies afterward in Memorial Church.",
+   "org": "Office for Religious & Spiritual Life",
+   "location": "Memorial Church",
+   "start": "2026-11-11T12:15:00-08:00",
+   "end": "2026-11-11T13:15:00-08:00",
+   "day": "2026-11-11",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/lunchtime-recitals-communi-tea-2247",
    "source": "localist",
    "confidence": 0.95
   },
