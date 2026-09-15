@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-15T15:17:15+00:00",
- "count": 44,
+ "generated": "2026-09-15T18:18:27+00:00",
+ "count": 45,
  "events": [
   {
    "uid": "3dbcf97b0909720e40a0db6b06ecbeb29e7e9f0c",
@@ -23,8 +23,8 @@
   {
    "uid": "6e48afc968d00eff098be2b87067c6bf7cfdb3ff",
    "title": "Terman Engineering Library Open House",
-   "food": "food and drink",
-   "blurb": "Engineering library open house with games, art, and tours for students and staff.",
+   "food": "free food and drink",
+   "blurb": "Engineering library open house with games, art, and tours.",
    "org": "Frederick Emmons Terman Engineering Library",
    "location": "Jen-Hsun Huang Building (School of Engineering) 201",
    "start": "2026-09-15T13:00:00-07:00",
@@ -92,6 +92,21 @@
    "day": "2026-09-18",
    "allDay": false,
    "url": "https://events.stanford.edu/event/media-center-open-house-2026",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "af26dfb52f284f38dd6b42040d2777983b9a0f2a",
+   "title": "Stanford Transplant Symposium",
+   "food": "refreshments",
+   "blurb": "Transplant symposium with talks on heart allocation and liver transplant AI.",
+   "org": "Department of Surgery",
+   "location": "Li Ka Shing Center LK120",
+   "start": "2026-09-18T15:30:00-07:00",
+   "end": "2026-09-18T17:00:00-07:00",
+   "day": "2026-09-18",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/stanford-transplant-symposium-9803",
    "source": "localist",
    "confidence": 0.95
   },
