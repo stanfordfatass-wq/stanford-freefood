@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-14T21:15:37+00:00",
- "count": 41,
+ "generated": "2026-09-15T00:21:55+00:00",
+ "count": 43,
  "events": [
   {
    "uid": "3dbcf97b0909720e40a0db6b06ecbeb29e7e9f0c",
@@ -257,6 +257,21 @@
    "day": "2026-10-06",
    "allDay": false,
    "url": "https://events.stanford.edu/event/celebrating-human-and-planetary-health-how-is-the-stanford-community-building-a-healthier-future-for-people-and-the-planet",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "2ca43b6417bb6aef04753f07277475c46f999b7d",
+   "title": "DAAAS Fall Faculty Research Seminar(s)",
+   "food": "lunch",
+   "blurb": "Faculty research seminars in African and African American Studies with speakers.",
+   "org": "African & African American Studies",
+   "location": "Building 80 114",
+   "start": "2026-10-08T12:00:00-07:00",
+   "end": "2026-10-08T13:00:00-07:00",
+   "day": "2026-10-08",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/daaas-fall-faculty-research-seminars",
    "source": "localist",
    "confidence": 0.95
   },
@@ -617,6 +632,21 @@
    "day": "2026-11-11",
    "allDay": false,
    "url": "https://events.stanford.edu/event/book-launch-literature-and-emergency-law-in-kashmir-and-northern-ireland",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "3652a3f495f1d05044ac37d9d3117d6130f65794",
+   "title": "DAAAS Fall Faculty Research Seminar(s)",
+   "food": "lunch",
+   "blurb": "Faculty research seminars in African and African American Studies with speakers.",
+   "org": "African & African American Studies",
+   "location": "Building 80 114",
+   "start": "2026-11-12T12:00:00-08:00",
+   "end": "2026-11-12T13:00:00-08:00",
+   "day": "2026-11-12",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/daaas-fall-faculty-research-seminars",
    "source": "localist",
    "confidence": 0.95
   }
