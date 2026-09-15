@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-15T18:18:27+00:00",
- "count": 45,
+ "generated": "2026-09-15T21:15:55+00:00",
+ "count": 46,
  "events": [
   {
    "uid": "3dbcf97b0909720e40a0db6b06ecbeb29e7e9f0c",
@@ -334,6 +334,21 @@
    "url": "https://events.stanford.edu/event/art-boba-talk-carolyn-lazard-jerron-herman",
    "source": "localist",
    "confidence": 0.85
+  },
+  {
+   "uid": "d98e780586a0a05c3dc0564cbae9625d65b85975",
+   "title": "STVP Studio: Deconstruct → Reconstruct",
+   "food": "light catering",
+   "blurb": "Half-day hands-on workshop deconstructing products and startups to build new solutions.",
+   "org": "STVP, Stanford Technology Ventures Program",
+   "location": "Building 160, Wallenberg Hall Room 124 (160-124), Main Quad",
+   "start": "2026-10-09T13:00:00-07:00",
+   "end": "2026-10-09T17:00:00-07:00",
+   "day": "2026-10-09",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/stvp-studio-deconstruct-reconstruct",
+   "source": "localist",
+   "confidence": 0.95
   },
   {
    "uid": "c00890def55610195f844811471743e36de20e22",
