@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-16T00:20:26+00:00",
- "count": 45,
+ "generated": "2026-09-16T03:16:27+00:00",
+ "count": 44,
  "events": [
-  {
-   "uid": "6e48afc968d00eff098be2b87067c6bf7cfdb3ff",
-   "title": "Terman Engineering Library Open House",
-   "food": "free food and drink",
-   "blurb": "Engineering library open house with games, art, and tours.",
-   "org": "Frederick Emmons Terman Engineering Library",
-   "location": "Jen-Hsun Huang Building (School of Engineering) 201",
-   "start": "2026-09-15T13:00:00-07:00",
-   "end": "2026-09-15T15:00:00-07:00",
-   "day": "2026-09-15",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/terman-engineering-library-open-house-8061",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "85c1aef72648503943505d5871e6280cf60f0b72",
    "title": "NGSO: Getting the Most Out of Your Advising Relationship (presented by VPGE)",
