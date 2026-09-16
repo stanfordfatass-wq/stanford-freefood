@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-15T21:15:55+00:00",
- "count": 46,
+ "generated": "2026-09-16T00:20:26+00:00",
+ "count": 45,
  "events": [
-  {
-   "uid": "3dbcf97b0909720e40a0db6b06ecbeb29e7e9f0c",
-   "title": "NGSO: Top Tips to Manage Graduate Life (presented by VPGE)",
-   "food": "refreshments",
-   "blurb": "Talk on managing graduate student life with refreshments.",
-   "org": "Office of the Vice Provost for Graduate Education",
-   "location": "EVGR Building C Theater C134",
-   "start": "2026-09-15T09:00:00-07:00",
-   "end": "2026-09-15T10:00:00-07:00",
-   "day": "2026-09-15",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/ngso-top-tips-to-manage-graduate-life-presented-by-vpge-2026",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "6e48afc968d00eff098be2b87067c6bf7cfdb3ff",
    "title": "Terman Engineering Library Open House",
