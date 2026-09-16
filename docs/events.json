@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-16T18:19:34+00:00",
- "count": 44,
+ "generated": "2026-09-16T21:16:59+00:00",
+ "count": 45,
  "events": [
   {
    "uid": "85c1aef72648503943505d5871e6280cf60f0b72",
@@ -197,6 +197,21 @@
    "day": "2026-09-30",
    "allDay": false,
    "url": "https://events.stanford.edu/event/pathways-to-neurosciences-2026-fall-social",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "700fa745646b389c5f7293a0796f3b9cfb2f8ba2",
+   "title": "STVP Orientation: Opportunities in Entrepreneurship",
+   "food": "pizza and refreshments",
+   "blurb": "Orientation event for Stanford's entrepreneurship center with program overviews.",
+   "org": "STVP, Stanford Technology Ventures Program",
+   "location": "Jen-Hsun Huang Building (School of Engineering) Mackenzie (Huang 300)",
+   "start": "2026-09-30T17:00:00-07:00",
+   "end": "2026-09-30T19:00:00-07:00",
+   "day": "2026-09-30",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/stvp-orientation-opportunities-in-entrepreneurship",
    "source": "localist",
    "confidence": 0.95
   },
