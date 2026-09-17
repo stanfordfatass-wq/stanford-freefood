@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-17T18:18:50+00:00",
- "count": 45,
+ "generated": "2026-09-17T21:16:19+00:00",
+ "count": 44,
  "events": [
   {
    "uid": "6fd7ee338e790d4abf445e07c9c62ff61811c647",
@@ -306,21 +306,6 @@
    "confidence": 0.85
   },
   {
-   "uid": "d98e780586a0a05c3dc0564cbae9625d65b85975",
-   "title": "STVP Studio: Deconstruct → Reconstruct",
-   "food": "light catering",
-   "blurb": "Half-day hands-on workshop deconstructing products and startups to build new solutions.",
-   "org": "STVP, Stanford Technology Ventures Program",
-   "location": "Building 160, Wallenberg Hall Room 124 (160-124), Main Quad",
-   "start": "2026-10-09T13:00:00-07:00",
-   "end": "2026-10-09T17:00:00-07:00",
-   "day": "2026-10-09",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/stvp-studio-deconstruct-reconstruct",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
    "uid": "c00890def55610195f844811471743e36de20e22",
    "title": "Publishing in the Humanities",
    "food": "dinner",
@@ -522,8 +507,8 @@
    "blurb": "Quarterly salon featuring presentations and interactive experiences for Stanford affiliates.",
    "org": "Cantor Arts Center",
    "location": "Cantor Arts Center Cantor Auditorium",
-   "start": "2026-10-29T18:00:00-07:00",
-   "end": "2026-10-29T19:30:00-07:00",
+   "start": "2026-10-29T17:00:00-07:00",
+   "end": "2026-10-29T18:30:00-07:00",
    "day": "2026-10-29",
    "allDay": false,
    "url": "https://events.stanford.edu/event/InterPlay_Oct_2026",
