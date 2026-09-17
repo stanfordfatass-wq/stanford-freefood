@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-17T09:17:11+00:00",
+ "generated": "2026-09-17T12:19:32+00:00",
  "count": 45,
  "events": [
   {
@@ -459,7 +459,7 @@
    "uid": "338bf0dca79d31e54f649477ea24ef57e35f7f47",
    "title": "Rock Painting at Branner Library",
    "food": "coffee, tea, and snacks",
-   "blurb": "Halloween-themed rock painting de-stress event with free refreshments.",
+   "blurb": "Halloween-themed rock painting and de-stress event at Branner Library.",
    "org": "Branner Earth Sciences Library",
    "location": "Mitchell Earth Sciences Branner Earth Sciences & Map Collections",
    "start": "2026-10-28T10:00:00-07:00",
