@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-17T00:20:40+00:00",
- "count": 45,
+ "generated": "2026-09-17T03:16:31+00:00",
+ "count": 44,
  "events": [
-  {
-   "uid": "bf61e9f4694a38921392ee8a4ad6cbdd9ac87dee",
-   "title": "Science Library Open House",
-   "food": "light refreshments",
-   "blurb": "Guided tour and activities at Stanford's Science Library with refreshments.",
-   "org": "Stanford University Libraries",
-   "location": "Sapp Center for Science Teaching and Learning Room 315",
-   "start": "2026-09-16T13:00:00-07:00",
-   "end": "2026-09-16T15:00:00-07:00",
-   "day": "2026-09-16",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/sciencelibrary_openhouse_2026",
-   "source": "localist",
-   "confidence": 0.85
-  },
   {
    "uid": "6fd7ee338e790d4abf445e07c9c62ff61811c647",
    "title": "Big Earth Hackathon: Info Session & Mixer",
