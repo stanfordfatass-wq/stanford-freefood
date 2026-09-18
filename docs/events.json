@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-17T21:16:19+00:00",
- "count": 44,
+ "generated": "2026-09-18T00:21:51+00:00",
+ "count": 48,
  "events": [
   {
    "uid": "6fd7ee338e790d4abf445e07c9c62ff61811c647",
@@ -216,6 +216,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "48afc56d3883fac65e4a1ba0f26e5931499546b4",
+   "title": "Learn about Consent & Communication (CoCo Workshop) + Free Boba!",
+   "food": "boba",
+   "blurb": "Workshop on consent and communication with free boba.",
+   "org": "Office of Substance Use Programs Education & Resources (SUPER)",
+   "location": "The Well House, Lobby",
+   "start": "2026-10-05T19:00:00-07:00",
+   "end": "2026-10-05T20:00:00-07:00",
+   "day": "2026-10-05",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/learn-about-consent-communication-coco-free-boba",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "b0478b214d77f6801e88a7d4216beeb49da65900",
    "title": "Celebrating Human and Planetary Health | How is the Stanford community building a healthier future for people and the planet?",
    "food": "light refreshments",
@@ -304,6 +319,21 @@
    "url": "https://events.stanford.edu/event/art-boba-talk-carolyn-lazard-jerron-herman",
    "source": "localist",
    "confidence": 0.85
+  },
+  {
+   "uid": "431fb1b0cac2f4f129fd7c20b822d51ad36cbf39",
+   "title": "Learn about Consent & Communication (CoCo Workshop) + Free Boba!",
+   "food": "boba",
+   "blurb": "Workshop on consent and communication with free boba.",
+   "org": "Office of Substance Use Programs Education & Resources (SUPER)",
+   "location": "The Well House, Lobby",
+   "start": "2026-10-12T19:00:00-07:00",
+   "end": "2026-10-12T20:00:00-07:00",
+   "day": "2026-10-12",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/learn-about-consent-communication-coco-free-boba",
+   "source": "localist",
+   "confidence": 0.95
   },
   {
    "uid": "c00890def55610195f844811471743e36de20e22",
@@ -426,6 +456,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "637e28cba1bc248ccbc449ea7c9599dde3cceeb0",
+   "title": "Bring Your Own PEER (Alcohol 101 training): Boba + Jellycat Raffle!",
+   "food": "boba",
+   "blurb": "Free alcohol education workshop with peer facilitators and raffle.",
+   "org": "Office of Substance Use Programs Education & Resources (SUPER)",
+   "location": "The Well House Lobby",
+   "start": "2026-10-26T19:00:00-07:00",
+   "end": "2026-10-26T20:00:00-07:00",
+   "day": "2026-10-26",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/bring-your-own-peer-alcohol-101-training-boba-jellycat-raffle",
+   "source": "localist",
+   "confidence": 0.9
+  },
+  {
    "uid": "52c21087a4d23d3977e582233cd439a3517464d7",
    "title": "2027 Global Health Fall Kickoff",
    "food": "light refreshments",
@@ -527,6 +572,21 @@
    "day": "2026-10-30",
    "allDay": false,
    "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "b6bee12d944a47eeb832d8e20f3f52f954b9db9a",
+   "title": "Upstander Workshop with PEERs: FREE boba!",
+   "food": "boba",
+   "blurb": "Upstander training workshop on creating a culture of consent.",
+   "org": "Office of Substance Use Programs Education & Resources (SUPER)",
+   "location": "The Well House Lobby",
+   "start": "2026-11-02T19:00:00-08:00",
+   "end": "2026-11-02T20:00:00-08:00",
+   "day": "2026-11-02",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/upstander-workshop-with-peers-free-boba-7088",
    "source": "localist",
    "confidence": 0.95
   },
