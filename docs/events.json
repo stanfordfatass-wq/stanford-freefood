@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-20T21:15:26+00:00",
- "count": 45,
+ "generated": "2026-09-21T00:20:47+00:00",
+ "count": 44,
  "events": [
-  {
-   "uid": "9f181ba24d28539d5d862305b76855cfaad03ccb",
-   "title": "Dumplings and Dialogue",
-   "food": "dumplings",
-   "blurb": "Casual conversation and networking event for freshmen and transfer students.",
-   "org": "Asian American Activities Center",
-   "location": "Asian American Activities Center Ballroom, 1st Floor",
-   "start": "2026-09-20T11:00:00-07:00",
-   "end": "2026-09-20T13:00:00-07:00",
-   "day": "2026-09-20",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/dumplings-and-dialogue",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "9344258de34207aa337f6443a7d6e4f925a2f668",
    "title": "DAAAS Postdoc Appreciation Day",
