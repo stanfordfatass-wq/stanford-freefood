@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-21T18:18:34+00:00",
- "count": 44,
+ "generated": "2026-09-21T21:16:16+00:00",
+ "count": 45,
  "events": [
   {
    "uid": "9344258de34207aa337f6443a7d6e4f925a2f668",
@@ -122,6 +122,21 @@
    "day": "2026-10-02",
    "allDay": false,
    "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "7109d3356cc7854acde6be6d82467db8b65747c8",
+   "title": "AI-Native: A Lunch Talk Exploring New Practice Models",
+   "food": "lunch",
+   "blurb": "Lunch talk about AI-native law firms and practice models.",
+   "org": "Deborah L. Rhode Center on the Legal Profession",
+   "location": "Stanford Law School Room 290",
+   "start": "2026-10-05T12:45:00-07:00",
+   "end": "2026-10-05T14:00:00-07:00",
+   "day": "2026-10-05",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/ai-native-a-lunch-talk-exploring-new-practice-models",
    "source": "localist",
    "confidence": 0.95
   },
@@ -579,7 +594,7 @@
    "uid": "d9d9ab24d9e7a17c7575615e2501d7dd73a6e0d3",
    "title": "For the Next Generation: Mental Health in Asian American, Native Hawaiian, and Pacific Islander Youth",
    "food": "lunch",
-   "blurb": "Book launch and panel discussion about mental health in Asian American, Native Hawaiian, and Pacific Islander youth.",
+   "blurb": "Book launch panel discussion on mental health in Asian American and Pacific Islander youth.",
    "org": "Asian American Research Center at Stanford",
    "location": "Building 360 CCSRE Conference Room (First Floor)",
    "start": "2026-11-09T12:00:00-08:00",
