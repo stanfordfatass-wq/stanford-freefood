@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-22T21:15:25+00:00",
- "count": 47,
+ "generated": "2026-09-23T00:20:20+00:00",
+ "count": 48,
  "events": [
   {
    "uid": "9344258de34207aa337f6443a7d6e4f925a2f668",
@@ -47,6 +47,21 @@
    "day": "2026-09-25",
    "allDay": false,
    "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "b3ca1c28d3917daf340878fa42b2d079097b5559",
+   "title": "New Spaces Open House",
+   "food": "walking tacos, paletas",
+   "blurb": "Open house for new student event space with food and music.",
+   "org": "Office of Student Engagement",
+   "location": "Suite 4",
+   "start": "2026-09-25T14:30:00-07:00",
+   "end": "2026-09-25T16:00:00-07:00",
+   "day": "2026-09-25",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/new-spaces-open-house",
    "source": "localist",
    "confidence": 0.95
   },
@@ -502,9 +517,9 @@
   },
   {
    "uid": "349686c49fcde3a8d562fd2fc9b42ed3bca8c030",
-   "title": "InterPlay Salon | October 2026 | Stanford Affiliates Only",
+   "title": "InterPlay Salon with Austin Anderson, Jussi Ängeslevä, and Patrick R. Crowley | Stanford Affiliates Only",
    "food": "light refreshments",
-   "blurb": "Quarterly salon featuring presentations and interactive experiences for Stanford affiliates.",
+   "blurb": "Interdisciplinary salon featuring presentations and interactive experiences from three speakers.",
    "org": "Cantor Arts Center",
    "location": "Cantor Arts Center Cantor Auditorium",
    "start": "2026-10-29T17:00:00-07:00",
