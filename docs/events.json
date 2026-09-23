@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-23T18:20:08+00:00",
+ "generated": "2026-09-23T21:17:48+00:00",
  "count": 49,
  "events": [
   {
@@ -384,7 +384,7 @@
    "uid": "76d257e257dd5aa02bd2155c0ebe090f6716c075",
    "title": "Art & Art History Reunion Open House",
    "food": "light food and refreshments",
-   "blurb": "Reunion reception with alums, faculty, students, and staff celebrating the art department.",
+   "blurb": "Department reunion reception with food, exhibitions, and art activities.",
    "org": "Department of Art & Art History",
    "location": "McMurtry Building Outdoor Atrium",
    "start": "2026-10-16T14:00:00-07:00",
