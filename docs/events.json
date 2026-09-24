@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-24T18:19:24+00:00",
- "count": 50,
+ "generated": "2026-09-24T21:17:21+00:00",
+ "count": 51,
  "events": [
   {
    "uid": "9344258de34207aa337f6443a7d6e4f925a2f668",
@@ -123,6 +123,21 @@
    "allDay": false,
    "url": "https://cardinalengage.stanford.edu/rsvp?id=2266457",
    "source": "cardinalengage",
+   "confidence": 0.95
+  },
+  {
+   "uid": "2212f82e1fe87fc7dd4f47c93c12611020fe2a0a",
+   "title": "Justene Hill Edwards | Slavery, Freedom, and the Complicated Logics of American Capitalism",
+   "food": "lunch",
+   "blurb": "Academic lecture on slavery and capitalism in American history.",
+   "org": "Stanford Humanities Center",
+   "location": "Humanities Center SHC Board Room",
+   "start": "2026-10-01T12:30:00-07:00",
+   "end": "2026-10-01T14:00:00-07:00",
+   "day": "2026-10-01",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/justene-hill-edwards-slavery-freedom-and-the-complicated-logics-of-american-capitalism",
+   "source": "localist",
    "confidence": 0.95
   },
   {
@@ -654,7 +669,7 @@
    "uid": "d9d9ab24d9e7a17c7575615e2501d7dd73a6e0d3",
    "title": "For the Next Generation: Mental Health in Asian American, Native Hawaiian, and Pacific Islander Youth",
    "food": "lunch",
-   "blurb": "Book launch panel discussion on mental health in Asian American and Pacific Islander youth.",
+   "blurb": "Panel discussion on mental health in Asian American and Pacific Islander youth.",
    "org": "Asian American Research Center at Stanford",
    "location": "Building 360 CCSRE Conference Room (First Floor)",
    "start": "2026-11-09T12:00:00-08:00",
