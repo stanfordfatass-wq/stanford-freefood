@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-28T15:19:13+00:00",
- "count": 49,
+ "generated": "2026-09-28T18:19:31+00:00",
+ "count": 58,
  "events": [
   {
    "uid": "15e093a0717c55976d03f5aeae1f061d23eb79ba",
@@ -17,6 +17,21 @@
    "day": "2026-09-29",
    "allDay": false,
    "url": "https://events.stanford.edu/event/lecturers-and-academic-teaching-staff-academic-year-kick-off-and-community-gathering",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "5158c681f9b3582f0c9a6370b20749e96b42f6e5",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-09-30T10:30:00-07:00",
+   "end": "2026-09-30T12:00:00-07:00",
+   "day": "2026-09-30",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
    "source": "localist",
    "confidence": 0.95
   },
@@ -186,6 +201,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "493be8212dbde7f4f49284854fa8e3da2d155ec3",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-10-07T10:30:00-07:00",
+   "end": "2026-10-07T12:00:00-07:00",
+   "day": "2026-10-07",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "8f63f64946362f8a12e823b54250e3b404573bfb",
    "title": "Building 360 Open House",
    "food": "boba, mochi waffles, and lunch",
@@ -291,6 +321,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "ec96743ad875d466b78a4c03058fb355de954fdf",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-10-14T10:30:00-07:00",
+   "end": "2026-10-14T12:00:00-07:00",
+   "day": "2026-10-14",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "c00890def55610195f844811471743e36de20e22",
    "title": "Publishing in the Humanities",
    "food": "dinner",
@@ -377,6 +422,21 @@
    "day": "2026-10-16",
    "allDay": false,
    "url": "https://events.stanford.edu/event/art-art-history-reunion-open-house-2026",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "a69ebc6bbac5cf19ce22ca2150cdddc321e3d343",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-10-21T10:30:00-07:00",
+   "end": "2026-10-21T12:00:00-07:00",
+   "day": "2026-10-21",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
    "source": "localist",
    "confidence": 0.95
   },
@@ -471,6 +531,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "8b368db01082308a7efbf3a616c608488992471e",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-10-28T10:30:00-07:00",
+   "end": "2026-10-28T12:00:00-07:00",
+   "day": "2026-10-28",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "bf4658f355b849e52dfc71e92e4b62de9742ee33",
    "title": "Leadership Bootcamp: Communication, Negotiation and Influence",
    "food": "dinner",
@@ -561,6 +636,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "0f634af655134f4127f67d70052b78a88e59bd11",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-11-04T10:30:00-08:00",
+   "end": "2026-11-04T12:00:00-08:00",
+   "day": "2026-11-04",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "3f27e0df21d7a96fbf165dfdf0230cd213ef9877",
    "title": "3 Minute Thesis (3MT) Informational Workshop - Nov. 4, 2026",
    "food": "refreshments",
@@ -632,6 +722,21 @@
    "day": "2026-11-09",
    "allDay": false,
    "url": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "9926ea157c0fc332eb668b534de54b745464ded1",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-11-11T10:30:00-08:00",
+   "end": "2026-11-11T12:00:00-08:00",
+   "day": "2026-11-11",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
    "source": "localist",
    "confidence": 0.95
   },
@@ -711,6 +816,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "40f139101e809bb812104b699b79c7b7138d7b2e",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-11-18T10:30:00-08:00",
+   "end": "2026-11-18T12:00:00-08:00",
+   "day": "2026-11-18",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "fd9edae9d8b73f1f3a8693da7d38b2da9a728f19",
    "title": "OMAC Coffee & Donuts",
    "food": "coffee and donuts",
@@ -722,6 +842,21 @@
    "day": "2026-11-20",
    "allDay": false,
    "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "2c63a622b2fe56463bb09e61a4d9e715d5a28e1f",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-11-25T10:30:00-08:00",
+   "end": "2026-11-25T12:00:00-08:00",
+   "day": "2026-11-25",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
    "source": "localist",
    "confidence": 0.95
   },
