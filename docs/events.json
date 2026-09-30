@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-30T00:22:09+00:00",
- "count": 62,
+ "generated": "2026-09-30T03:17:56+00:00",
+ "count": 61,
  "events": [
-  {
-   "uid": "15e093a0717c55976d03f5aeae1f061d23eb79ba",
-   "title": "Lecturers and Academic Teaching Staff: Academic Year Kick-off and Community Gathering",
-   "food": "snacks",
-   "blurb": "Academic year kick-off and community gathering for lecturers and teaching staff.",
-   "org": "Center for Teaching and Learning",
-   "location": "Center for Teaching and Learning CTL Meeting Space (116)",
-   "start": "2026-09-29T14:00:00-07:00",
-   "end": "2026-09-29T15:30:00-07:00",
-   "day": "2026-09-29",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/lecturers-and-academic-teaching-staff-academic-year-kick-off-and-community-gathering",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "5158c681f9b3582f0c9a6370b20749e96b42f6e5",
    "title": "International Spouse Coffee ☕️",
