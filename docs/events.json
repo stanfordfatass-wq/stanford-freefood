@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-09-29T21:17:16+00:00",
- "count": 60,
+ "generated": "2026-09-30T00:22:09+00:00",
+ "count": 62,
  "events": [
   {
    "uid": "15e093a0717c55976d03f5aeae1f061d23eb79ba",
@@ -681,6 +681,21 @@
    "confidence": 0.95
   },
   {
+   "uid": "b1ccf3367568eeb0cdf6a6c814b15d97e14c27e8",
+   "title": "Research Roadmap: AI and Development",
+   "food": "lunch",
+   "blurb": "Talk on AI and development research by Columbia professor.",
+   "org": "Stanford King Center on Global Development",
+   "location": "Gunn Building (SIEPR) Doll 320 (third floor)",
+   "start": "2026-11-04T12:30:00-08:00",
+   "end": "2026-11-04T13:30:00-08:00",
+   "day": "2026-11-04",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/research-roadmap-ai-development",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
    "uid": "0b57e030bbdb18cf9f6cac4515b3b8ed07390ddd",
    "title": "Cristopher Niell",
    "food": "coffee and cookies",
@@ -737,6 +752,21 @@
    "day": "2026-11-09",
    "allDay": false,
    "url": "https://events.stanford.edu/event/for-the-next-generation-mental-health-in-asian-american-native-hawaiian-and-pacific-islander-youth",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "511aec816bda45672435ddecf47135ba85e060d3",
+   "title": "Doing Development Differently: Lessons from BRAC on Local Leadership and Global Scale",
+   "food": "dinner",
+   "blurb": "Talk on global development and BRAC's leadership approach by executive director Asif Saleh.",
+   "org": "Stanford King Center on Global Development",
+   "location": "Gunn Building (SIEPR) Koret-Taube Conference Center",
+   "start": "2026-11-10T17:30:00-08:00",
+   "end": "2026-11-10T18:30:00-08:00",
+   "day": "2026-11-10",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/doing-development-differently",
    "source": "localist",
    "confidence": 0.95
   },
