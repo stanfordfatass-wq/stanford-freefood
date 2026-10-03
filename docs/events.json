@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-10-02T21:58:20+00:00",
- "count": 48,
+ "generated": "2026-10-03T04:14:02+00:00",
+ "count": 47,
  "events": [
-  {
-   "uid": "75753dadc99ebd43bb2e8f4493c872b43beff1be",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-10-02T09:00:00-07:00",
-   "end": "2026-10-02T10:00:00-07:00",
-   "day": "2026-10-02",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "7109d3356cc7854acde6be6d82467db8b65747c8",
    "title": "AI-Native: A Lunch Talk Exploring New Practice Models",
