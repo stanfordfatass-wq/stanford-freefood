@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-10-04T11:58:29+00:00",
- "count": 49,
+ "generated": "2026-10-04T16:36:45+00:00",
+ "count": 48,
  "events": [
   {
    "uid": "7109d3356cc7854acde6be6d82467db8b65747c8",
@@ -392,21 +392,6 @@
    "day": "2026-10-30",
    "allDay": false,
    "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
-   "uid": "b6bee12d944a47eeb832d8e20f3f52f954b9db9a",
-   "title": "Upstander Workshop with PEERs: FREE boba!",
-   "food": "boba",
-   "blurb": "Upstander training workshop on creating a culture of consent.",
-   "org": "Office of Substance Use Programs Education & Resources (SUPER)",
-   "location": "The Well House Lobby",
-   "start": "2026-11-02T19:00:00-08:00",
-   "end": "2026-11-02T20:00:00-08:00",
-   "day": "2026-11-02",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/upstander-workshop-with-peers-free-boba-7088",
    "source": "localist",
    "confidence": 0.95
   },
