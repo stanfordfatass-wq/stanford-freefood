@@ -2,8 +2,8 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-10-04T04:46:20+00:00",
- "count": 47,
+ "generated": "2026-10-04T11:58:29+00:00",
+ "count": 49,
  "events": [
   {
    "uid": "7109d3356cc7854acde6be6d82467db8b65747c8",
@@ -707,6 +707,36 @@
    "day": "2026-11-30",
    "allDay": false,
    "url": "https://events.stanford.edu/event/learn-about-consent-communication-coco-free-boba",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "6312dcd7d218acbbd5ff9f28c2c0f7b4730b83b7",
+   "title": "International Spouse Coffee ☕️",
+   "food": "coffee and cookies",
+   "blurb": "Weekly social gathering for international spouses with refreshments.",
+   "org": "Bechtel International Center",
+   "location": "Bechtel International Center Assembly room",
+   "start": "2026-12-02T10:30:00-08:00",
+   "end": "2026-12-02T12:00:00-08:00",
+   "day": "2026-12-02",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
+   "source": "localist",
+   "confidence": 0.95
+  },
+  {
+   "uid": "44c15867c976b5174f76bd01c2c361d53770719f",
+   "title": "Lunchtime Recitals & Communi-Tea",
+   "food": "tea and cookies",
+   "blurb": "Organ recital with tea and cookies afterward in Memorial Church.",
+   "org": "Office for Religious & Spiritual Life",
+   "location": "Memorial Church",
+   "start": "2026-12-02T12:15:00-08:00",
+   "end": "2026-12-02T13:15:00-08:00",
+   "day": "2026-12-02",
+   "allDay": false,
+   "url": "https://events.stanford.edu/event/lunchtime-recitals-communi-tea-2247",
    "source": "localist",
    "confidence": 0.95
   }
