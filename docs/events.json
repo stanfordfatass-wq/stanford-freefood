@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-10-06T05:19:43+00:00",
- "count": 39,
+ "generated": "2026-10-06T20:04:29+00:00",
+ "count": 36,
  "events": [
-  {
-   "uid": "48afc56d3883fac65e4a1ba0f26e5931499546b4",
-   "title": "Learn about Consent & Communication (CoCo Workshop) + Free Boba!",
-   "food": "boba",
-   "blurb": "Workshop on consent and communication with free boba.",
-   "org": "Office of Substance Use Programs Education & Resources (SUPER)",
-   "location": "The Well House, Lobby",
-   "start": "2026-10-05T19:00:00-07:00",
-   "end": "2026-10-05T20:00:00-07:00",
-   "day": "2026-10-05",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/learn-about-consent-communication-coco-free-boba",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "6b131864362805e57d85421c88996c8e79fb2caf",
    "title": "Ethics in Society Open House",
@@ -336,21 +321,6 @@
    "confidence": 0.95
   },
   {
-   "uid": "3f27e0df21d7a96fbf165dfdf0230cd213ef9877",
-   "title": "3 Minute Thesis (3MT) Informational Workshop - Nov. 4, 2026",
-   "food": "refreshments",
-   "blurb": "Workshop on presenting graduate research in three minutes.",
-   "org": "Office of the Vice Provost for Graduate Education",
-   "location": "ChEM-H Building and Neurosciences Building, John A. and Cynthia Fry Gunn Rotunda, E241 (2nd floor) E241",
-   "start": "2026-11-04T12:00:00-08:00",
-   "end": "2026-11-04T13:00:00-08:00",
-   "day": "2026-11-04",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/3-minute-thesis-3mt-informational-workshop-nov-4-2026",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
    "uid": "b1ccf3367568eeb0cdf6a6c814b15d97e14c27e8",
    "title": "Research Roadmap: AI and Development",
    "food": "lunch",
@@ -362,21 +332,6 @@
    "day": "2026-11-04",
    "allDay": false,
    "url": "https://events.stanford.edu/event/research-roadmap-ai-development",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
-   "uid": "0b57e030bbdb18cf9f6cac4515b3b8ed07390ddd",
-   "title": "Cristopher Niell",
-   "food": "coffee and cookies",
-   "blurb": "Neuroscience seminar with speaker Cristopher Niell from University of Oregon.",
-   "org": "Wu Tsai Neurosciences Institute",
-   "location": "Stanford Neurosciences Building",
-   "start": "2026-11-05T12:00:00-08:00",
-   "end": "2026-11-06T12:00:00-08:00",
-   "day": "2026-11-05",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/cristopher-niell",
    "source": "localist",
    "confidence": 0.95
   },
