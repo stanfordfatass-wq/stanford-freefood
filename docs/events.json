@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-10-05T21:55:33+00:00",
- "count": 48,
+ "generated": "2026-10-06T05:19:43+00:00",
+ "count": 39,
  "events": [
-  {
-   "uid": "7109d3356cc7854acde6be6d82467db8b65747c8",
-   "title": "AI-Native: A Lunch Talk Exploring New Practice Models",
-   "food": "lunch",
-   "blurb": "Lunch talk about AI-native law firms and practice models.",
-   "org": "Deborah L. Rhode Center on the Legal Profession",
-   "location": "Stanford Law School Room 290",
-   "start": "2026-10-05T12:45:00-07:00",
-   "end": "2026-10-05T14:00:00-07:00",
-   "day": "2026-10-05",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/ai-native-a-lunch-talk-exploring-new-practice-models",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "48afc56d3883fac65e4a1ba0f26e5931499546b4",
    "title": "Learn about Consent & Communication (CoCo Workshop) + Free Boba!",
@@ -126,21 +111,6 @@
    "confidence": 0.95
   },
   {
-   "uid": "494c9d96b25a09346e0f7854de997076808498f6",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-10-09T09:00:00-07:00",
-   "end": "2026-10-09T10:00:00-07:00",
-   "day": "2026-10-09",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
    "uid": "372bf98cde90b82c5606d1a361c4218bf159cabc",
    "title": "Space-Based Data Centers: Will a million data centers orbit Earth?",
    "food": "light lunch",
@@ -231,21 +201,6 @@
    "confidence": 0.95
   },
   {
-   "uid": "c0a4238243cf04cf1d998cc543424cc21f6dda08",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-10-16T09:00:00-07:00",
-   "end": "2026-10-16T10:00:00-07:00",
-   "day": "2026-10-16",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
    "uid": "76d257e257dd5aa02bd2155c0ebe090f6716c075",
    "title": "Art & Art History Reunion Open House",
    "food": "light food and refreshments",
@@ -287,21 +242,6 @@
    "day": "2026-10-22",
    "allDay": false,
    "url": "https://events.stanford.edu/event/david-anderson",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
-   "uid": "02fffa56d5c9ba3cd7e093f6e26218dc76c3d3a6",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-10-23T09:00:00-07:00",
-   "end": "2026-10-23T10:00:00-07:00",
-   "day": "2026-10-23",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
    "source": "localist",
    "confidence": 0.95
   },
@@ -381,21 +321,6 @@
    "confidence": 0.72
   },
   {
-   "uid": "8bd58eb9738971dd25cf97c3590e15e54c2e68ff",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-10-30T09:00:00-07:00",
-   "end": "2026-10-30T10:00:00-07:00",
-   "day": "2026-10-30",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
    "uid": "0f634af655134f4127f67d70052b78a88e59bd11",
    "title": "International Spouse Coffee ☕️",
    "food": "coffee and cookies",
@@ -467,21 +392,6 @@
    "day": "2026-11-05",
    "allDay": false,
    "url": "https://events.stanford.edu/event/36th-annual-jonathan-j-king-lecture",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
-   "uid": "6e8295b0bbf59a92008d8ccbd0c84e8d5a6ab882",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-11-06T09:00:00-08:00",
-   "end": "2026-11-06T10:00:00-08:00",
-   "day": "2026-11-06",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
    "source": "localist",
    "confidence": 0.95
   },
@@ -591,21 +501,6 @@
    "confidence": 0.95
   },
   {
-   "uid": "f5ad4542f1b1fc3b830eddcfc1d5cb5513ebdc72",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-11-13T09:00:00-08:00",
-   "end": "2026-11-13T10:00:00-08:00",
-   "day": "2026-11-13",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
    "uid": "40f139101e809bb812104b699b79c7b7138d7b2e",
    "title": "International Spouse Coffee ☕️",
    "food": "coffee and cookies",
@@ -617,21 +512,6 @@
    "day": "2026-11-18",
    "allDay": false,
    "url": "https://events.stanford.edu/event/international-spouse-coffee-6560",
-   "source": "localist",
-   "confidence": 0.95
-  },
-  {
-   "uid": "fd9edae9d8b73f1f3a8693da7d38b2da9a728f19",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-11-20T09:00:00-08:00",
-   "end": "2026-11-20T10:00:00-08:00",
-   "day": "2026-11-20",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
    "source": "localist",
    "confidence": 0.95
   },
@@ -664,21 +544,6 @@
    "url": "https://events.stanford.edu/event/bring-your-own-peer-alcohol-101-training-boba-jellycat-raffle",
    "source": "localist",
    "confidence": 0.9
-  },
-  {
-   "uid": "a7bd46cd14840f051929c5f24b89c1a553d8797c",
-   "title": "OMAC Coffee & Donuts",
-   "food": "coffee and donuts",
-   "blurb": "Casual coffee hour for military-affiliated students to meet and connect.",
-   "org": "Office for Military-Affiliated Communities",
-   "location": "Old Union 2nd Floor",
-   "start": "2026-11-27T09:00:00-08:00",
-   "end": "2026-11-27T10:00:00-08:00",
-   "day": "2026-11-27",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/office-for-military-affiliated-communities-coffee-donuts",
-   "source": "localist",
-   "confidence": 0.95
   },
   {
    "uid": "ab4d1c88e8c52f60998f6ee6951e229821d8d396",
