@@ -10,30 +10,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:America/Los_Angeles
 BEGIN:VEVENT
-SUMMARY:[Free food] treats and boba - Ethics in Society Open House
-DTSTART:20261006T213000Z
-DTEND:20261006T233000Z
-DTSTAMP:20261007T002756Z
-UID:6b131864362805e57d85421c88996c8e79fb2caf@stanford-freefood
-DESCRIPTION:Open house for ethics center with activities and refreshments.
- \n\nFood: treats and boba\nHosted by: McCoy Family Center for Ethics in So
- ciety\nWhere: Meyer Green\nDetails: https://events.stanford.edu/event/ethi
- cs-in-society-open-house_2026\n\n(auto-added - source: localist\, confiden
- ce 0.95)
-LOCATION:Meyer Green
-URL:https://events.stanford.edu/event/ethics-in-society-open-house_2026
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[Free food] treats and boba - Ethics in Society Open House
-TRIGGER:-PT45M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261007T173000Z
 DTEND:20261007T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:493be8212dbde7f4f49284854fa8e3da2d155ec3@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -54,7 +35,7 @@ SUMMARY:[Free food] boba\, mochi waffles\, and lunch - Building 360 Open H
  ouse
 DTSTART:20261007T183000Z
 DTEND:20261007T203000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:8f63f64946362f8a12e823b54250e3b404573bfb@stanford-freefood
 DESCRIPTION:Open house for three campus centers with faculty\, staff\, and
   student connections.\n\nFood: boba\, mochi waffles\, and lunch\nHosted by
@@ -74,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:[Free food] lunch - DAAAS Fall Faculty Research Seminar(s)
 DTSTART:20261008T190000Z
 DTEND:20261008T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:2ca43b6417bb6aef04753f07277475c46f999b7d@stanford-freefood
 DESCRIPTION:Faculty research seminars in African and African American Stud
  ies with speakers.\n\nFood: lunch\nHosted by: African & African American S
@@ -94,7 +75,7 @@ SUMMARY:[Free food] coffee and cookies - Takaki Komiyama - A cell-type-spe
  cific cortical circuit f...
 DTSTART:20261008T190000Z
 DTEND:20261009T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:9035ced907bce9cc8dcdf48ff2c56df5673f7e03@stanford-freefood
 DESCRIPTION:Neuroscience seminar on neural circuits and value representati
  ons.\n\nFood: coffee and cookies\nHosted by: Wu Tsai Neurosciences Institu
@@ -117,7 +98,7 @@ SUMMARY:[Free food] boba and mochi waffles - A3C Graduate Community Boba M
  ixer
 DTSTART:20261008T220000Z
 DTEND:20261008T233000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:294382607d34c69266a2cf1c520ea56354e050be@stanford-freefood
 DESCRIPTION:Graduate student mixer with boba and mochi waffles at the Asia
  n American Activities Center.\n\nFood: boba and mochi waffles\nHosted by: 
@@ -139,7 +120,7 @@ SUMMARY:[Free food] light lunch - Space-Based Data Centers: Will a million
   data centers orb...
 DTSTART:20261012T190000Z
 DTEND:20261012T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:372bf98cde90b82c5606d1a361c4218bf159cabc@stanford-freefood
 DESCRIPTION:Presentation on feasibility and implications of space-based da
  ta centers.\n\nFood: light lunch\nHosted by: Precourt Institute for Energy
@@ -161,7 +142,7 @@ SUMMARY:[Free food] lunch - Stanford Indo-Pacific Policy Lab Principals Se
  ries: Conve...
 DTSTART:20261012T191500Z
 DTEND:20261012T203000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:c84b7030fac3d3905cf77715951e49d5b3db0d61@stanford-freefood
 DESCRIPTION:Discussion with US PACOM deputy commander on Indo-Pacific secu
  rity.\n\nFood: lunch\nHosted by: Center for International Security and Coo
@@ -184,7 +165,7 @@ SUMMARY:[Free food] boba - Learn about Consent & Communication (CoCo Works
  hop) + Fre...
 DTSTART:20261013T020000Z
 DTEND:20261013T030000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:431fb1b0cac2f4f129fd7c20b822d51ad36cbf39@stanford-freefood
 DESCRIPTION:Workshop on consent and communication with free boba.\n\nFood:
   boba\nHosted by: Office of Substance Use Programs Education & Resources (
@@ -206,7 +187,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261014T173000Z
 DTEND:20261014T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:ec96743ad875d466b78a4c03058fb355de954fdf@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -227,7 +208,7 @@ SUMMARY:[Free food] dinner - Moustafa Bayoumi | “I can’t imagine livin
  g next to a wall...
 DTSTART:20261014T233000Z
 DTEND:20261015T010000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:2a804e16c735484786ce6d140c7aab87a8ef1689@stanford-freefood
 DESCRIPTION:Lecture comparing Palestine and Tohono O'odham Nation border s
  truggles.\n\nFood: dinner\nHosted by: Stanford Humanities Center\nWhere: B
@@ -250,7 +231,7 @@ SUMMARY:[Free food] catered dinner - Canterbury Tales: Meet the Pilgrims (
  1/3)
 DTSTART:20261016T013000Z
 DTEND:20261016T030000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:ea87674576ef0cc6ca5f8f6f9a4b9f17961fae0f@stanford-freefood
 DESCRIPTION:Reading of Canterbury Tales prologue with catered dinner and b
  rainstorming session.\n\nFood: catered dinner\nHosted by: Department of En
@@ -273,7 +254,7 @@ SUMMARY:[Free food] light food and refreshments - Art & Art History Reunio
  n Open House
 DTSTART:20261016T210000Z
 DTEND:20261016T223000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:76d257e257dd5aa02bd2155c0ebe090f6716c075@stanford-freefood
 DESCRIPTION:Department reunion reception with food\, exhibitions\, and art
   activities.\n\nFood: light food and refreshments\nHosted by: Department o
@@ -295,7 +276,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261021T173000Z
 DTEND:20261021T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:a69ebc6bbac5cf19ce22ca2150cdddc321e3d343@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -316,7 +297,7 @@ SUMMARY:[Free food] coffee and cookies - David Anderson - Neural Coding of
   Affective Internal Stat...
 DTSTART:20261022T190000Z
 DTEND:20261023T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:5ed8f32bae512e6df3d6f3e7e3b75963113832a1@stanford-freefood
 DESCRIPTION:Neuroscience seminar on neural coding of emotions and innate b
  ehaviors.\n\nFood: coffee and cookies\nHosted by: Wu Tsai Neurosciences In
@@ -337,7 +318,7 @@ SUMMARY:[Free food] boba - Bring Your Own PEER (Alcohol 101 training): Bob
  a + Jellyc...
 DTSTART:20261027T020000Z
 DTEND:20261027T030000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:637e28cba1bc248ccbc449ea7c9599dde3cceeb0@stanford-freefood
 DESCRIPTION:Free alcohol education workshop with peer facilitators and raf
  fle.\n\nFood: boba\nHosted by: Office of Substance Use Programs Education 
@@ -359,7 +340,7 @@ SUMMARY:[Free food] coffee\, tea\, and snacks - Rock Painting at Branner L
  ibrary
 DTSTART:20261028T170000Z
 DTEND:20261028T210000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:338bf0dca79d31e54f649477ea24ef57e35f7f47@stanford-freefood
 DESCRIPTION:Halloween-themed rock painting and de-stress event at Branner 
  Library.\n\nFood: coffee\, tea\, and snacks\nHosted by: Branner Earth Scie
@@ -380,7 +361,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261028T173000Z
 DTEND:20261028T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:8b368db01082308a7efbf3a616c608488992471e@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -401,7 +382,7 @@ SUMMARY:[Free food] coffee and cookies - Emily Jacobs - New frontiers in w
  omen's brain health
 DTSTART:20261029T190000Z
 DTEND:20261030T190000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:3bb51806344d8c364be9e129f691fa61cfb38b6e@stanford-freefood
 DESCRIPTION:Neuroscience seminar on women's brain health and hormonal neur
  omodulation.\n\nFood: coffee and cookies\nHosted by: Wu Tsai Neurosciences
@@ -423,7 +404,7 @@ SUMMARY:[Free food] light refreshments - InterPlay Salon with Austin Ander
  son\, Jussi Ängeslevä\, an...
 DTSTART:20261030T000000Z
 DTEND:20261030T013000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:349686c49fcde3a8d562fd2fc9b42ed3bca8c030@stanford-freefood
 DESCRIPTION:Interdisciplinary salon featuring presentations and interactiv
  e experiences from three speakers.\n\nFood: light refreshments\nHosted by:
@@ -444,7 +425,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261104T183000Z
 DTEND:20261104T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:0f634af655134f4127f67d70052b78a88e59bd11@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -464,7 +445,7 @@ BEGIN:VEVENT
 SUMMARY:[Free food] lunch - Research Roadmap: AI and Development
 DTSTART:20261104T203000Z
 DTEND:20261104T213000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:b1ccf3367568eeb0cdf6a6c814b15d97e14c27e8@stanford-freefood
 DESCRIPTION:Talk on AI and development research by Columbia professor.\n\n
  Food: lunch\nHosted by: Stanford King Center on Global Development\nWhere:
@@ -484,7 +465,7 @@ SUMMARY:[Free food] hors d'oeuvres and refreshments - 36th Annual Jonathan
   J. King Lecture: Dr. Bryant Lin & Dr...
 DTSTART:20261106T013000Z
 DTEND:20261106T023000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:647dff6aea2ad7c5e4d90d73bc28f61a410af03a@stanford-freefood
 DESCRIPTION:Lecture featuring Dr. Bryant Lin discussing living with termin
  al cancer.\n\nFood: hors d'oeuvres and refreshments\nHosted by: The Laurie
@@ -506,7 +487,7 @@ SUMMARY:[Free food] lunch - For the Next Generation: Mental Health in Asia
  n American\,...
 DTSTART:20261109T200000Z
 DTEND:20261109T213000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:d9d9ab24d9e7a17c7575615e2501d7dd73a6e0d3@stanford-freefood
 DESCRIPTION:Panel discussion on mental health in Asian American and Pacifi
  c Islander youth.\n\nFood: lunch\nHosted by: Asian American Research Cente
@@ -529,7 +510,7 @@ SUMMARY:[Free food] dinner - Doing Development Differently: Lessons from B
  RAC on Local...
 DTSTART:20261111T013000Z
 DTEND:20261111T023000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:511aec816bda45672435ddecf47135ba85e060d3@stanford-freefood
 DESCRIPTION:Talk on global development and BRAC's leadership approach by e
  xecutive director Asif Saleh.\n\nFood: dinner\nHosted by: Stanford King Ce
@@ -550,7 +531,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261111T183000Z
 DTEND:20261111T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:9926ea157c0fc332eb668b534de54b745464ded1@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -570,7 +551,7 @@ BEGIN:VEVENT
 SUMMARY:[Free food] tea and cookies - Lunchtime Recitals & Communi-Tea
 DTSTART:20261111T201500Z
 DTEND:20261111T211500Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:c73a118b235f4b6162baa46f9e4bf5afa0cf234e@stanford-freefood
 DESCRIPTION:Organ recital with tea and cookies afterward in Memorial Churc
  h.\n\nFood: tea and cookies\nHosted by: Office for Religious & Spiritual L
@@ -590,7 +571,7 @@ SUMMARY:[Free food] refreshments - BOOK LAUNCH: Literature and Emergency L
  aw in Kashmir and...
 DTSTART:20261112T013000Z
 DTEND:20261112T023000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:bb08fedc06a1040af44c8d0bc4579705b1a7a8d7@stanford-freefood
 DESCRIPTION:Book launch celebrating a new study of emergency law and liter
  ature.\n\nFood: refreshments\nHosted by: African & African American Studie
@@ -611,7 +592,7 @@ BEGIN:VEVENT
 SUMMARY:[Free food] lunch - DAAAS Fall Faculty Research Seminar(s)
 DTSTART:20261112T200000Z
 DTEND:20261112T210000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:3652a3f495f1d05044ac37d9d3117d6130f65794@stanford-freefood
 DESCRIPTION:Faculty research seminars in African and African American Stud
  ies with speakers.\n\nFood: lunch\nHosted by: African & African American S
@@ -631,7 +612,7 @@ SUMMARY:[Free food] appetizers and drinks - Eitner Lecture with M. D. Ushe
  r\, "Journey to the West: Bu...
 DTSTART:20261113T013000Z
 DTEND:20261113T033000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:32d5d142ff31de2c678149a2447aee71a94768ba@stanford-freefood
 DESCRIPTION:Lecture on Buddhists in ancient Alexandria with reception.\n\n
  Food: appetizers and drinks\nHosted by: Department of Classics\nWhere: Bui
@@ -653,7 +634,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261118T183000Z
 DTEND:20261118T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:40f139101e809bb812104b699b79c7b7138d7b2e@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -674,7 +655,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261125T183000Z
 DTEND:20261125T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:2c63a622b2fe56463bb09e61a4d9e715d5a28e1f@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -695,7 +676,7 @@ SUMMARY:[Free food] boba - Bring Your Own PEER (Alcohol 101 training): Bob
  a + Jellyc...
 DTSTART:20261127T030000Z
 DTEND:20261127T040000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:3bc7f7110f8b3f2d346ff57ba473295b90f8629a@stanford-freefood
 DESCRIPTION:Free alcohol education workshop with peer facilitators and raf
  fle.\n\nFood: boba\nHosted by: Office of Substance Use Programs Education 
@@ -717,7 +698,7 @@ SUMMARY:[Free food] boba - Learn about Consent & Communication (CoCo Works
  hop) + Fre...
 DTSTART:20261201T030000Z
 DTEND:20261201T040000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:ab4d1c88e8c52f60998f6ee6951e229821d8d396@stanford-freefood
 DESCRIPTION:Workshop on consent and communication with free boba.\n\nFood:
   boba\nHosted by: Office of Substance Use Programs Education & Resources (
@@ -739,7 +720,7 @@ SUMMARY:[Free food] coffee and cookies - International Spouse Coffee ☕
  ️
 DTSTART:20261202T183000Z
 DTEND:20261202T200000Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:6312dcd7d218acbbd5ff9f28c2c0f7b4730b83b7@stanford-freefood
 DESCRIPTION:Weekly social gathering for international spouses with refresh
  ments.\n\nFood: coffee and cookies\nHosted by: Bechtel International Cente
@@ -759,7 +740,7 @@ BEGIN:VEVENT
 SUMMARY:[Free food] tea and cookies - Lunchtime Recitals & Communi-Tea
 DTSTART:20261202T201500Z
 DTEND:20261202T211500Z
-DTSTAMP:20261007T002756Z
+DTSTAMP:20261007T100017Z
 UID:44c15867c976b5174f76bd01c2c361d53770719f@stanford-freefood
 DESCRIPTION:Organ recital with tea and cookies afterward in Memorial Churc
  h.\n\nFood: tea and cookies\nHosted by: Office for Religious & Spiritual L

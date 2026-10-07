@@ -2,24 +2,9 @@
  "schema": 1,
  "name": "Stanford Free Food",
  "timezone": "America/Los_Angeles",
- "generated": "2026-10-07T00:27:56+00:00",
- "count": 36,
+ "generated": "2026-10-07T10:00:17+00:00",
+ "count": 35,
  "events": [
-  {
-   "uid": "6b131864362805e57d85421c88996c8e79fb2caf",
-   "title": "Ethics in Society Open House",
-   "food": "treats and boba",
-   "blurb": "Open house for ethics center with activities and refreshments.",
-   "org": "McCoy Family Center for Ethics in Society",
-   "location": "Meyer Green",
-   "start": "2026-10-06T14:30:00-07:00",
-   "end": "2026-10-06T16:30:00-07:00",
-   "day": "2026-10-06",
-   "allDay": false,
-   "url": "https://events.stanford.edu/event/ethics-in-society-open-house_2026",
-   "source": "localist",
-   "confidence": 0.95
-  },
   {
    "uid": "493be8212dbde7f4f49284854fa8e3da2d155ec3",
    "title": "International Spouse Coffee ☕️",
